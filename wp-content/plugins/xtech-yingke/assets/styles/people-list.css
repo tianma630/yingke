@@ -1,0 +1,158 @@
+.people-info:before {
+	display: inline-block;
+	content: '';
+    width: 50px;
+    height: 3px;
+    margin-bottom: 16px;
+    background-color: #BE9F6D;
+}
+
+.people-info {
+	height: 100%;
+	padding: 21px 20px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    background: #F2F2F2;
+}
+
+.people-info h4 {
+	font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.people-info p {
+	margin-bottom: 0;
+}
+
+.people-location {
+	color: #BE9F6D;
+}
+
+.people-list-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .people-list-grid {
+		grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .people-list-grid {
+		grid-template-columns: auto auto;
+    }
+}
+
+.xtech-people-col {
+	margin-bottom: 40px;
+}
+
+.xtech-people-col .xtech-people-link {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.people-thumb img {
+	width: 100%;
+	height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.people-filter {
+	margin-bottom: 25px;
+	border-top: 1px solid #BE9F6D;
+    border-bottom: 1px solid #BE9F6D;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.people-filter .js-filter-container {
+	margin-top: 0;
+    justify-content: flex-start;
+}
+
+.people-filter .js-filter-btn {
+	padding: 8.5px 23px;
+	color: #333333;
+	border-width: 0;
+}
+
+.people-filter .region-filter-dropdown {
+	display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.people-filter .js-filter-left {
+	height: auto;
+}
+
+.people-filter .js-filter-left > span,
+.people-filter .js-filter-right > span {
+	display: block;
+	padding: 15px 0;
+    border-bottom: 3px solid transparent;
+}
+
+.people-filter .js-filter-left > span {
+	margin-right: 45px;
+}
+
+.people-filter .js-filter-left > span,
+.people-filter .js-filter-right:hover > span {
+	border-color: #BE9F6D;
+}
+
+.people-filter .js-filter-right {
+	position: relative;
+}
+
+.people-filter .js-filter-right:hover .region-filter-dropdown {
+	display: block;
+    padding-top: 12.5px;
+    padding-bottom: 15px;
+    background: white;
+}
+
+.region-filter-item,
+.region-filter-item a {
+	display: block;
+}
+
+.region-filter-item.active button,
+.region-filter-item button:hover {
+	font-weight: 700;
+	background: white;
+    color: #BE9F6D;
+}
+
+.region-filter-action {
+	margin-bottom: 42px;
+}
+
+.region-filter-action a {
+	color: var( --e-global-color-primary );
+}
+
+.region-filter-action a svg {
+	margin-left: 8px;
+}
+
+#clear-filter-value {
+	color: #009861;
+}

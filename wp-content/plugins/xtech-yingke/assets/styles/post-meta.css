@@ -1,0 +1,23 @@
+.xtech-news-post-meta {
+    margin-bottom: 30px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BE9F6D;
+}
+
+.xtech-news-post-meta .xtech-news-post-meta-item {
+    display: inline-flex;
+    align-items: center;
+}
+
+.xtech-news-post-meta .xtech-news-post-meta-item:not(:last-child):after {
+    display: inline-block;
+    margin: 0 10px;
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #BE9F6D;
+}

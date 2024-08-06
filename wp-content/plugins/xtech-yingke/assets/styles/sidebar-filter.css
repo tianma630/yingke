@@ -1,0 +1,118 @@
+.xtech-news-sidebar-filter h2 {
+    padding-bottom: 17px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    border-bottom: 1px solid rgba(190, 159, 109, 0.5);
+}
+
+.xtech-news-sidebar-filter .xtech-news-sidebar-filter-section {
+    margin-bottom: 45px;
+}
+
+.xtech-news-sidebar-filter ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.xtech-news-sidebar-filter ul li a {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: #333;
+}
+
+.xtech-news-sidebar-filter .xtech-lawyers-link {
+    border: 0;
+}
+
+.xtech-news-sidebar-filter .sidebar-filter-btn {
+    display: block;
+    width: 100%;
+    padding: 9px;
+    background: #009861;
+    border: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.xtech-news-sidebar-filter .accordion:not(:last-child) {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.xtech-news-sidebar-filter .accordion-item {
+    border: 0;
+}
+
+.xtech-news-sidebar-filter .accordion-button {
+    padding: 16px 0;
+    background: transparent !important;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333 !important;
+    box-shadow: none !important;
+}
+
+.xtech-news-sidebar-filter .accordion-button::after {
+    display: none;
+}
+
+.xtech-news-sidebar-filter .accordion-button::before {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    content: '';
+    margin-right: 5px;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.5) !important;
+}
+
+.xtech-news-sidebar-filter .accordion-button:not(.collapsed)::before {
+    content: '';
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.xtech-news-sidebar-filter .accordion-body {
+    padding: 2px 5px 16px;
+}
+
+.xtech-news-sidebar-filter .form-check {
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.xtech-news-sidebar-filter .form-check-input {
+    display: none;
+}
+
+.xtech-news-sidebar-filter .form-check-input + label {
+    display: flex;
+    align-items: center;
+}
+
+.xtech-news-sidebar-filter .form-check-input + label:before {
+    display: inline-block;
+    content: '';
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+    flex: 0 0 16px;
+    border: 3px solid white;
+    box-shadow: 0 0 0 1px #787878;
+}
+
+.xtech-news-sidebar-filter .form-check-input:checked[type=checkbox] + label:before {
+    background: #BE9F6D;
+}
