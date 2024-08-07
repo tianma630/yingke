@@ -173,12 +173,12 @@
       $("#" + optionType + "-counter").text("all");
 
       $(item)
-        .find("form-check-input")
+        .find(".form-check-input")
         .each((j, check) => {
           if (j === 0) {
             $(check).prop("checked", true);
           } else {
-            $(check).prop("checked", true);
+            $(check).prop("checked", false);
           }
         });
     });

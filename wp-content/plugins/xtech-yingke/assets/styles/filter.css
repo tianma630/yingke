@@ -1,8 +1,8 @@
 .xtech-news-filter-search-form {
   position: relative;
   display: block;
-  margin: 0 auto 37px;
   max-width: 577px;
+  min-width: 180px;
 }
 
 .xtech-news-filter-search-form.yingke-search-form .input-wrapper:before {
@@ -31,7 +31,7 @@
 .xtech-news-filter-section {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 35px;
+  margin-bottom: 16px;
   border-top: 1px solid #be9f6d;
   border-bottom: 1px solid #be9f6d;
 }
@@ -139,5 +139,5 @@
 }
 
 .xtech-news-filter-clearall {
-  line-height: 54px;
+  line-height: 54px !important;
 }
